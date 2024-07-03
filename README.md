@@ -4,12 +4,19 @@ Task is to create a simple simulation of company that produces metal plates.<br>
 Machine creates plates and reports that to products microservice over the REST endpoint.<br>
 Meanwhile, machine must send telemetry data (machine start time, plate creation start time, plate creation end time, machine shutdown time). Communications is done through MQTT protocol. <br>
 
-Running Node.js Microservices
-
-    Install Dependencies:
+Running Microservices
+_____________________________
+Install Dependencies:
     Before running the microservices, make sure to install all dependencies. Navigate to the directory of each microservice in your terminal and run the following command:
+   
+    npm install
 
-npm install
+
+Start the Microservice:
+After installing dependencies, start the microservice by running:
+    
+    node app.js
+
 
 This command will install all required packages and dependencies listed in the package.json file.
 
